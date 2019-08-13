@@ -1,0 +1,184 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* customazid css/............................
+*/
+/* start of styling header */
+header{
+  position: fixed;
+  width:100%;
+  background:-webkit-linear-gradient(left,#31353E,#535A66,#31353E);
+}
+
+/* end of styling header */
+ /* Css styling of nav top */
+ 
+.menu nav {
+   text-align:center;
+ }
+  
+ .menu nav li {
+   display: inline-block;
+   font-size: 1.5em;
+   padding: .25em 1em;
+   text-transform:uppercase;
+ }
+ .menu nav a {
+  color:whitesmoke;
+   text-decoration: none;
+ }
+
+/*end of styling nav top*/
+
+ 
+ /* styling slides section*/
+   
+  #slides.slidesjs-navigation {
+    margin-top:3px;
+  }
+  #slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+  }
+  #slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+  }
+  .slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+  }
+ .slidesjs-pagination li { 
+    float: left;
+     margin: 0 1px; 
+  }
+/* end of styling slides section */
+ 
+.background {
+  padding-top:5%;
+}
+/* start of styling main section1 */
+
+main{
+  background-color:rgb(16, 16, 68);
+}
+
+#information {
+  color:whitesmoke;
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+   font-size:1.2em;
+   padding-bottom:7%;
+}
+  
+#bookfair{
+  color:rgb(247, 245, 245);
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+   font-size:1.2em;
+   padding-bottom:7%;
+   text-align:left; 
+   background:-webkit-linear-gradient(left,#31353E,#535A66,#31353E);
+}
+
+#bookfair img{
+   width: 100%;
+}
+ 
+footer{
+  background-color:rgb(16, 16, 68); 
+}
+
+.intern{
+
+color: rgb(255, 255, 255);
+}
+
+#persinal img{
+  margin:auto;
+  width:100%;
+}
+
+.intern p {
+  text-align:justify;
+  font-size:1.5em;
+  margin: auto;
+  margin-left:8%;
+  margin-right:8%;
+  
+}
+.intern h2{
+  text-align:justify;
+  font-size:1.5em;
+  margin: auto;
+  margin-left:8%;
+  margin-right:8%;
+}
+
+#persinal h2{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+ form {
+margin-left: 2%;
+margin-top: 2%;
+margin-bottom:2%;
+} 
+
+ form input {
+   text-emphasis: none;
+   width:100%;  
+ }
+
+ form textarea{
+   width:100%;
+ }
+form h2{
+ font: size 1.5pm;
+ text-emphasis:none;
+ color: #535A66;
+ font-family: Arial, Helvetica, sans-serif
+}
+
+ #map{
+   margin-left:30%;
+   margin-top: 2%;
+   margin-bottom:2%;
+ }
+ footer{
+  display: flex;
+  background-color: #ccc;
+ }
+
+
